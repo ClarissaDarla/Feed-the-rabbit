@@ -41,9 +41,11 @@ function createApples(){
   
   apple = createSprite(200,10,20,20);
   apple.shapeColor = "red";
-  apple.velocityY = 3;
+  apple.velocityY = 4;
 
-  apple.y = Math.round(random(20,60));
+  apple.x = Math.round(random(20,340));
+
+  apple.lifetime = 70
 
  }
    
